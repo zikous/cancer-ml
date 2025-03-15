@@ -1,5 +1,16 @@
+# Cancer Prediction Machine Learning Project
+
 ## Overview
-This project focuses on building a machine learning model to predict cancer. The research and development of the model are documented in the provided Jupyter notebook.
+This project focuses on building a **machine learning model** to predict the likelihood of cervical cancer based on patient risk factors. The goal is to develop a robust and accurate model that can assist healthcare professionals in early diagnosis and risk assessment. The project includes data preprocessing, feature selection, model training, hyperparameter tuning, and evaluation, culminating in a deployable machine learning pipeline.
+
+The research and development process is documented in a Jupyter notebook, and the final model is deployed as a **Streamlit web application** for interactive use.
+
+## Key Features
+- **Data Preprocessing**: Handles missing values, scales features, and addresses class imbalance using SMOTE.
+- **Feature Selection**: Uses correlation analysis to select the most relevant features for prediction.
+- **Model Training**: Evaluates multiple machine learning algorithms, including Logistic Regression, Random Forest, XGBoost, LightGBM, and more.
+- **Hyperparameter Tuning**: Optimizes model performance using RandomizedSearchCV.
+- **Model Deployment**: The best-performing model is saved and deployed via a Streamlit app for real-time predictions.
 
 ## Repository Structure
 - `notebook.ipynb`: Contains the Jupyter notebook with all the research and the process of creating the best model.
@@ -32,7 +43,4 @@ This project focuses on building a machine learning model to predict cancer. The
 
 ## Deployment
 To deploy the Streamlit application, you can use platforms like Heroku, AWS, or Streamlit Sharing. Follow the respective platform's documentation for deployment instructions.
-
-## License
-This project is licensed under the MIT License.
 
