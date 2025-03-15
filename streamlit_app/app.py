@@ -4,9 +4,9 @@ import numpy as np
 import pandas as pd
 
 # Load model and artifacts
-model = joblib.load('../model_artifacts/cervical_cancer_best_model_gradient_boosting.joblib')
-scaler = joblib.load('../model_artifacts/cervical_cancer_scaler.joblib')
-feature_names = joblib.load('../model_artifacts/feature_names.joblib')
+model = joblib.load('model_artifacts/cervical_cancer_best_model_gradient_boosting.joblib')
+scaler = joblib.load('model_artifacts/cervical_cancer_scaler.joblib')
+feature_names = joblib.load('model_artifacts/feature_names.joblib')
 
 # Default values
 default_values = {

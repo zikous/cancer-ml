@@ -81,9 +81,9 @@ default_values_negative = {
 default_values = default_values_positive
 
 # Load the model and artifacts
-model = joblib.load('../model_artifacts/cervical_cancer_best_model_gradient_boosting.joblib')
-scaler = joblib.load('../model_artifacts/cervical_cancer_scaler.joblib')
-feature_names = joblib.load('../model_artifacts/feature_names.joblib')
+model = joblib.load('model_artifacts/cervical_cancer_best_model_gradient_boosting.joblib')
+scaler = joblib.load('model_artifacts/cervical_cancer_scaler.joblib')
+feature_names = joblib.load('model_artifacts/feature_names.joblib')
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
