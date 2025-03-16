@@ -14,3 +14,4 @@ scikit-learn==1.6.1
 seaborn==0.13.2
 streamlit==1.42.0
 xgboost==3.0.0
+shap==0.47.0
